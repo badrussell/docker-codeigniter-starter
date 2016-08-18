@@ -1,0 +1,5 @@
+{
+    "require": {
+        "smolareck/hmvcadmin": "dev-desenv"
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "name" : "Carlos Smolareck",
+  "authors": [
+    "Carlos Smolareck <carlossmolareck@gmail.com>"
+  ],
+  "description": "Admin dashboard and control panel template",
+  "main": [
+    "dist/css/AdminLTE.css",
+    "dist/js/app.js",
+    "build/less/AdminLTE.less"
+  ],
+  "keywords": [
+    "css",
+    "js",
+    "html",
+    "template",
+    "admin",
+    "bootstrap",
+    "theme",
+    "backend",
+    "responsive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "/.*",
+    "node_modules",
+    "bower_components",
+    "composer.json",
+    "documentation"
+  ],
+  "dependencies": {
+    "AdminLTE": "almasaeed2010/AdminLTE",
+    "sweetalert": "lipis/bootstrap-sweetalert",
+    "confirm": "craftpip/jquery-confirm",
+    "select2": "select2/select2",
+    "font-awesome": "^4.6.3"
+  }
+}

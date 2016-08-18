@@ -1,0 +1,22 @@
+php:
+  build: .
+  ports:
+    - "81:80"
+  volumes:
+    - ./www:/var/www/html
+  links:
+    - db
+    - redis
+
+db:
+  image: mysql
+  ports:
+    - "3306:3306"
+  environment:
+    MYSQL_ROOT_PASSWORD: ci
+    MYSQL_USER: ci
+    MYSQL_PASSWORD: ci
+    MYSQL_DATABASE: adv
+
+redis:
+  image: redis
