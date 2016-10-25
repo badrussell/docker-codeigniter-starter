@@ -7,4 +7,7 @@ COPY apache2/apache2.conf /etc/apache2/apache2.conf
 
 RUN a2enmod rewrite
 
+WORKDIR /www
+VOLUME ["/www"]
+
 EXPOSE 81
